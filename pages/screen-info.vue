@@ -283,8 +283,8 @@ button:hover {
 }
 
 .thermometer {
-  width: 100px;
-  height: 250px;
+  width: 144px;
+  height: 299px;
 }
 
 .liquid {
