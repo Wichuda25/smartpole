@@ -83,9 +83,11 @@ const saveValue = () => {
     <div v-if="showPopup" class="popup-overlay">
       <div class="popup">
         <h2>{{ popupTitle }}</h2>
-        <img src="/img/popup/weigh.png" alt="" />
-        <img src="/img/popup/height.png" alt="" />
-        <img src="/img/popup/bmi.png" alt="" />
+        <div class="col-img" style="">
+          <img src="/img/popup/weigh.png" alt="" />
+          <img src="/img/popup/height.png" alt="" />
+          <img src="/img/popup/bmi.png" alt="" />
+        </div>
         <input v-model="popupValue" placeholder="Enter value" />
         <button @click="saveValue">บันทึก</button>
         <button class="btn-close" @click="closePopup">ปิด</button>
